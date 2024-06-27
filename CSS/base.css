@@ -1,0 +1,117 @@
+/* Class and Id call Method */
+.externalStyle {
+  font-size: 72px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  text-align: end;
+}
+
+#externalIdStyle {
+  background-color: turquoise;
+  border: 5px dotted;
+}
+
+.para1 {
+    text-align: start;
+    font-style: italic; 
+}
+
+.para2 {
+   text-align: justify; 
+   font-style: normal;
+}
+
+.para3 {
+    text-align: end;
+    font-style: oblique;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: skyblue;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flexBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+}
+
+.flexBox-item {
+    background-color: aqua;
+    border: 2px solid black;
+    padding: 20px 25px;
+    margin: 10px 15px;
+    width:30%;
+}
+
+.positions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.posi1 {
+    position: static;
+}
+.posi2 {
+    position: relative;
+    left: 50px;
+}
+.posi3 {
+    position: absolute;
+    right: 100px;
+}
+.posi4 {
+    position: sticky;
+    background-color: antiquewhite;
+    border: 2px dotted black;
+}
+
+
+/* Tag call methods */
+h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-variant: small-caps;
+    font-size: 150px;
+}
+
+input  {
+    width: 50%;
+    height: 50px;
+    padding: 10px 15px;
+    margin: 10px 15px;
+    font-size: 15px;
+}
+
+button  {
+    width: 50%;
+    height: 50px;
+    padding: 10px 15px;
+    margin: 10px 15px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    background-color: lightgreen;
+    border-radius: 10px;
+}
+
+label {
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-style: oblique;
+}
